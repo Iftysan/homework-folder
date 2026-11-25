@@ -14,19 +14,13 @@ print("================================")
 print("STUDENT MARKS ANALYSER")
 print("================================")
  
-# ------------------------------------------------
-# PART 1 — WHAT IS PANDAS?
-# ------------------------------------------------
- 
+
 print("
 PART 1: What is Pandas?")
 print("Pandas is a Python library used to work with data.")
 print("It helps you create tables, read files, view data, and clean data.")
  
-# ------------------------------------------------
-# PART 2 — PANDAS SERIES
-# ------------------------------------------------
-# A Series is like a single column of labelled data.
+
  
 print("
 PART 2: Pandas Series")
@@ -40,10 +34,7 @@ student_marks = pd.Series(
  
 print(student_marks)
  
-# ------------------------------------------------
-# PART 3 — PANDAS DATAFRAME
-# ------------------------------------------------
-# A DataFrame is like a table with rows and columns.
+
  
 print("
 PART 3: Pandas DataFrame")
@@ -60,9 +51,7 @@ df = pd.DataFrame(data)
  
 print(df)
  
-# ------------------------------------------------
-# PART 4 — CREATE AND READ A CSV FILE
-# ------------------------------------------------
+
  
 print("
 PART 4: Reading Data from a CSV File")
@@ -74,9 +63,7 @@ student_data = pd.read_csv("student_marks.csv")
 print("CSV file read successfully!")
 print(student_data)
  
-# ------------------------------------------------
-# PART 5 — VIEWING DATA
-# ------------------------------------------------
+
  
 print("
 PART 5: Viewing Data")
@@ -118,10 +105,7 @@ cleaned_df = messy_df.fillna(0)
 print("
 Cleaned Data:")
 print(cleaned_df)
- 
-# ------------------------------------------------
-# PART 7 — SIMPLE ANALYSIS
-# ------------------------------------------------
+
  
 print("
 PART 7: Student Total and Average Marks")
@@ -131,7 +115,7 @@ cleaned_df["Average"] = cleaned_df["Total"] / 3
  
 print(cleaned_df)
  
-# FINAL SUMMARY
+
  
 print("
 ================================")
